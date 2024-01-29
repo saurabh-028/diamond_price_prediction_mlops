@@ -1,0 +1,4 @@
+[2024-01-29 17:41:22,199] 23 root - INFO - data ingestion started
+[2024-01-29 17:41:22,321] 26 root - INFO - reading data
+[2024-01-29 17:41:23,225] 32 root - INFO - data split completed
+[2024-01-29 17:41:24,190] 37 root - INFO - data ingestion completed
