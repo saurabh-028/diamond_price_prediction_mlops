@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: DimondPricePrediction
 Version: 0.0.1
-Author: sunny savita
-Author-email: sunny.savita@ineuron.ai
+Author: Shaw
+Author-email: saurabhshinde028@gmail.com
 Requires-Dist: scikit-learn
 Requires-Dist: pandas
 Requires-Dist: numpy
