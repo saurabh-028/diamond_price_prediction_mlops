@@ -1,0 +1,5 @@
+[2024-02-02 01:14:00,033] 23 root - INFO - data ingestion started
+[2024-02-02 01:14:00,267] 26 root - INFO - reading data
+[2024-02-02 01:14:01,720] 32 root - INFO - data split completed
+[2024-02-02 01:14:03,079] 37 root - INFO - data ingestion completed
+[2024-02-02 01:14:03,253] 103 root - INFO - Exeption occured while initiating data transformation

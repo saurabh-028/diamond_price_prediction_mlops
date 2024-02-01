@@ -21,7 +21,7 @@ class DataTansformationConfig:
     preprocessor_obj_file_path=os.path.join('artifacts','preprocessor.pkl')
 
 class DataTransformation:
-    def __init__(self) -> None:
+    def __init__(self):
         self.data_transfrormation_config = DataTansformationConfig()
     
     def get_data_transformation(self):
@@ -67,7 +67,7 @@ class DataTransformation:
     def initiate_data_transformation(self, train_path, test_path):
         try:
             train_df = pd.read_csv(train_path)
-            test_df = pd.read_csv(test_df)
+            test_df = pd.read_csv(test_path)
             logging.info("read train and test data complete")
             logging.info(f'Train Dataframe Head : \n{train_df.head().to_string()}')
             logging.info(f'Test Dataframe Head : \n{test_df.head().to_string()}')
@@ -86,7 +86,7 @@ class DataTransformation:
             X_test = preprocessor.transform(X_test)
 
             save_object(
-                file_path=self.data_transformation_config.preprocessor_obj_file_path,
+                file_path=self.data_transfrormation_config.preprocessor_obj_file_path,
                 obj=preprocessor
             )
 

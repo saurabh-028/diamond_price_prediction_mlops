@@ -1,0 +1,23 @@
+[2024-02-02 01:16:00,250] 23 root - INFO - data ingestion started
+[2024-02-02 01:16:00,361] 26 root - INFO - reading data
+[2024-02-02 01:16:01,239] 32 root - INFO - data split completed
+[2024-02-02 01:16:02,150] 37 root - INFO - data ingestion completed
+[2024-02-02 01:16:02,318] 71 root - INFO - read train and test data complete
+[2024-02-02 01:16:02,323] 72 root - INFO - Train Dataframe Head : 
+   Unnamed: 0      id  carat      cut color clarity  depth  table     x     y     z  price
+0      176614  176614   0.63  Premium     F     VS1   61.4   59.0  5.47  5.50  3.37   2218
+1       70416   70416   1.01     Good     G     VS1   64.4   59.0  6.28  6.22  4.04   4809
+2      116627  116627   1.19  Premium     G     VS2   62.6   59.0  6.74  6.68  4.20   8169
+3       61082   61082   0.39    Ideal     E     VS2   62.6   57.0  4.73  4.66  2.94   1024
+4       24456   24456   1.00     Good     E     SI1   63.9   54.0  6.26  6.29  4.00   4729
+[2024-02-02 01:16:02,334] 73 root - INFO - Test Dataframe Head : 
+   Unnamed: 0      id  carat        cut color clarity  depth  table     x     y     z  price
+0      193074  193074   0.75      Ideal     E     VS2   62.1   56.0  5.82  5.85  3.62   3356
+1       65650   65650   1.04      Ideal     G     VS1   61.6   55.5  6.52  6.56  4.03   7272
+2        8761    8761   1.12    Premium     D     SI1   61.6   60.0  6.66  6.61  4.09   5443
+3      141798  141798   0.51  Very Good     E     VS2   63.1   56.0  5.09  5.06  3.19   1607
+4       46559   46559   0.71    Premium     F     VS2   62.8   61.0  5.70  5.68  3.58   2834
+[2024-02-02 01:16:02,334] 29 root - INFO - data transformation initiated
+[2024-02-02 01:16:02,334] 38 root - INFO - Pipeline Initiated
+[2024-02-02 01:16:02,339] 84 root - INFO - Applying preprocessing object on training and testing datasets.
+[2024-02-02 01:16:02,491] 103 root - INFO - Exeption occured while initiating data transformation
