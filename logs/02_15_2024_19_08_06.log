@@ -1,0 +1,45 @@
+[2024-02-15 19:08:08,251] 96 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.207.82.33:8000
+[2024-02-15 19:08:08,252] 96 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-02-15 19:08:16,148] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 19:08:16] "GET / HTTP/1.1" 200 -
+[2024-02-15 19:08:16,172] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 19:08:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2024-02-15 19:08:18,198] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 19:08:18] "GET /predict HTTP/1.1" 200 -
+[2024-02-15 19:08:18,513] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 19:08:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2024-02-15 19:08:23,325] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 19:08:23] "GET / HTTP/1.1" 200 -
+[2024-02-15 19:08:23,345] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 19:08:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2024-02-15 19:08:46,561] 64 root - INFO - Dataframe Gathered
+[2024-02-15 19:08:46,561] 53 root - INFO - Exception Occured in load_object function utils
+[2024-02-15 19:08:46,561] 1414 app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Saurabh\mlops ineuron\End to End Project\src\utils\utils.py", line 50, in load_object
+    with open(file_path,'rb') as file_obj:
+FileNotFoundError: [Errno 2] No such file or directory: 'artifatcts\\preprocessor.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Saurabh\mlops ineuron\End to End Project\src\pipeline\prediction_pipeline.py", line 17, in predict
+    preprocessor = load_object(preprocessor_path)
+  File "C:\Saurabh\mlops ineuron\End to End Project\src\utils\utils.py", line 54, in load_object
+    raise customexception(e,sys)
+src.exception.exception.customexception: Error occured in python script name [C:\Saurabh\mlops ineuron\End to End Project\src\utils\utils.py] line number [50] error message [[Errno 2] No such file or directory: 'artifatcts\\preprocessor.pkl']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Saurabh\mlops ineuron\End to End Project\env\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Saurabh\mlops ineuron\End to End Project\env\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Saurabh\mlops ineuron\End to End Project\env\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Saurabh\mlops ineuron\End to End Project\env\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "app.py", line 31, in predict_datapoint
+    preds = predict_pipeline.predict(final_data)
+  File "C:\Saurabh\mlops ineuron\End to End Project\src\pipeline\prediction_pipeline.py", line 26, in predict
+    raise customexception(e,sys)
+src.exception.exception.customexception: Error occured in python script name [C:\Saurabh\mlops ineuron\End to End Project\src\pipeline\prediction_pipeline.py] line number [17] error message [Error occured in python script name [C:\Saurabh\mlops ineuron\End to End Project\src\utils\utils.py] line number [50] error message [[Errno 2] No such file or directory: 'artifatcts\\preprocessor.pkl']]
+[2024-02-15 19:08:46,570] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 19:08:46] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -

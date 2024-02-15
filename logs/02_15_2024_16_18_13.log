@@ -1,0 +1,20 @@
+[2024-02-15 16:18:14,744] 96 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.20.143:8000
+[2024-02-15 16:18:14,745] 96 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-02-15 16:18:21,999] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:18:21] "GET / HTTP/1.1" 200 -
+[2024-02-15 16:18:22,015] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:18:22] "GET /static/style.css HTTP/1.1" 200 -
+[2024-02-15 16:18:25,810] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:18:25] "[33mGET /prediction HTTP/1.1[0m" 404 -
+[2024-02-15 16:18:33,828] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:18:33] "GET /predict HTTP/1.1" 200 -
+[2024-02-15 16:18:34,135] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:18:34] "[33mGET /style.css HTTP/1.1[0m" 404 -
+[2024-02-15 16:18:36,105] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:18:36] "GET /predict HTTP/1.1" 200 -
+[2024-02-15 16:18:36,119] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:18:36] "[33mGET /style.css HTTP/1.1[0m" 404 -
+[2024-02-15 16:18:39,531] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:18:39] "[33mGET /prediction HTTP/1.1[0m" 404 -
+[2024-02-15 16:18:59,373] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:18:59] "GET / HTTP/1.1" 200 -
+[2024-02-15 16:18:59,692] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:18:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2024-02-15 16:19:30,938] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:19:30] "GET / HTTP/1.1" 200 -
+[2024-02-15 16:19:30,954] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:19:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2024-02-15 16:19:31,894] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:19:31] "GET / HTTP/1.1" 200 -
+[2024-02-15 16:19:32,205] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:19:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2024-02-15 16:19:33,004] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:19:33] "[33mGET /prediction HTTP/1.1[0m" 404 -

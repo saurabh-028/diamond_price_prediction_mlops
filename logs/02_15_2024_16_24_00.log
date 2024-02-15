@@ -1,0 +1,43 @@
+[2024-02-15 16:24:03,115] 96 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.20.143:8000
+[2024-02-15 16:24:03,115] 96 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-02-15 16:24:06,334] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:24:06] "GET /predict HTTP/1.1" 200 -
+[2024-02-15 16:24:06,358] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:24:06] "GET /static/style.css HTTP/1.1" 200 -
+[2024-02-15 16:24:07,618] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:24:07] "GET /predict HTTP/1.1" 200 -
+[2024-02-15 16:24:07,932] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:24:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2024-02-15 16:24:08,967] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:24:08] "GET /predict HTTP/1.1" 200 -
+[2024-02-15 16:24:08,988] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:24:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2024-02-15 16:24:09,217] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:24:09] "GET /predict HTTP/1.1" 200 -
+[2024-02-15 16:24:09,454] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:24:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2024-02-15 16:24:12,150] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:24:12] "GET / HTTP/1.1" 200 -
+[2024-02-15 16:24:12,164] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:24:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2024-02-15 16:24:12,405] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:24:12] "GET / HTTP/1.1" 200 -
+[2024-02-15 16:24:12,531] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:24:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2024-02-15 16:24:12,884] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:24:12] "GET / HTTP/1.1" 200 -
+[2024-02-15 16:24:12,904] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:24:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2024-02-15 16:24:16,867] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:24:16] "GET /predict HTTP/1.1" 200 -
+[2024-02-15 16:24:16,886] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:24:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2024-02-15 16:24:17,359] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:24:17] "GET /predict HTTP/1.1" 200 -
+[2024-02-15 16:24:17,374] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:24:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2024-02-15 16:24:17,616] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:24:17] "GET /predict HTTP/1.1" 200 -
+[2024-02-15 16:24:17,911] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:24:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2024-02-15 16:24:18,328] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:24:18] "GET /predict HTTP/1.1" 200 -
+[2024-02-15 16:24:18,345] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:24:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2024-02-15 16:25:51,336] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:25:51] "GET /predict HTTP/1.1" 200 -
+[2024-02-15 16:25:51,359] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:25:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2024-02-15 16:25:54,119] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:25:54] "GET /predict HTTP/1.1" 200 -
+[2024-02-15 16:25:54,428] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:25:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2024-02-15 16:25:55,678] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:25:55] "GET /predict HTTP/1.1" 200 -
+[2024-02-15 16:25:55,700] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:25:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2024-02-15 16:25:55,935] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:25:55] "GET /predict HTTP/1.1" 200 -
+[2024-02-15 16:25:56,068] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:25:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2024-02-15 16:25:57,082] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:25:57] "GET /predict HTTP/1.1" 200 -
+[2024-02-15 16:25:57,109] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:25:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2024-02-15 16:26:00,302] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:26:00] "GET /predict HTTP/1.1" 200 -
+[2024-02-15 16:26:00,615] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:26:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2024-02-15 16:26:00,969] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:26:00] "GET /predict HTTP/1.1" 200 -
+[2024-02-15 16:26:00,991] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:26:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2024-02-15 16:26:01,792] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:26:01] "GET /predict HTTP/1.1" 200 -
+[2024-02-15 16:26:02,111] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:26:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -

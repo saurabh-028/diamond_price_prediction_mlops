@@ -1,0 +1,65 @@
+[2024-02-15 16:11:25,205] 96 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.20.143:8000
+[2024-02-15 16:11:25,205] 96 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-02-15 16:11:29,901] 1414 app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Saurabh\mlops ineuron\End to End Project\env\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Saurabh\mlops ineuron\End to End Project\env\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Saurabh\mlops ineuron\End to End Project\env\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Saurabh\mlops ineuron\End to End Project\env\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "app.py", line 8, in home_page
+    return render_template("index.html")
+  File "C:\Saurabh\mlops ineuron\End to End Project\env\lib\site-packages\flask\templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "C:\Saurabh\mlops ineuron\End to End Project\env\lib\site-packages\flask\templating.py", line 132, in _render
+    rv = template.render(context)
+  File "C:\Saurabh\mlops ineuron\End to End Project\env\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Saurabh\mlops ineuron\End to End Project\env\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Saurabh\mlops ineuron\End to End Project\templates\index.html", line 7, in top-level template code
+    <link rel="stylesheet" href="{{ url_for('./', filename='style.css') }}">
+  File "C:\Saurabh\mlops ineuron\End to End Project\env\lib\site-packages\flask\app.py", line 1697, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Saurabh\mlops ineuron\End to End Project\env\lib\site-packages\flask\app.py", line 1686, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Saurabh\mlops ineuron\End to End Project\env\lib\site-packages\werkzeug\routing\map.py", line 919, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint '/' with values ['filename']. Did you mean 'static' instead?
+[2024-02-15 16:11:29,901] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:11:29] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[2024-02-15 16:11:31,807] 1414 app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Saurabh\mlops ineuron\End to End Project\env\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Saurabh\mlops ineuron\End to End Project\env\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Saurabh\mlops ineuron\End to End Project\env\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Saurabh\mlops ineuron\End to End Project\env\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "app.py", line 8, in home_page
+    return render_template("index.html")
+  File "C:\Saurabh\mlops ineuron\End to End Project\env\lib\site-packages\flask\templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "C:\Saurabh\mlops ineuron\End to End Project\env\lib\site-packages\flask\templating.py", line 132, in _render
+    rv = template.render(context)
+  File "C:\Saurabh\mlops ineuron\End to End Project\env\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Saurabh\mlops ineuron\End to End Project\env\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Saurabh\mlops ineuron\End to End Project\templates\index.html", line 7, in top-level template code
+    <link rel="stylesheet" href="{{ url_for('./', filename='style.css') }}">
+  File "C:\Saurabh\mlops ineuron\End to End Project\env\lib\site-packages\flask\app.py", line 1697, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Saurabh\mlops ineuron\End to End Project\env\lib\site-packages\flask\app.py", line 1686, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Saurabh\mlops ineuron\End to End Project\env\lib\site-packages\werkzeug\routing\map.py", line 919, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint '/' with values ['filename']. Did you mean 'static' instead?
+[2024-02-15 16:11:31,808] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 16:11:31] "[35m[1mGET / HTTP/1.1[0m" 500 -

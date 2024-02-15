@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <title>Diamond Price Prediction</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Diamond Price Prediction</h1>
+        <p>Welcome to our Diamond Price Prediction platform. We utilize machine learning techniques to predict diamond prices based on various features.</p>
+        <div class="center">
+            <a href="/predict" class="button">Get Started</a>
+        </div>
+        
+        <!-- Dataset Details Section -->
+        <div class="dataset-details">
+            <h2>About Dataset</h2>
+            <p><strong>Context:</strong> These dataset contain 10 features in which 'Price(in US dollars)' is the dependent feature. The goal is to predict the price of Diamond using different Regression Algorithms.</p>
+            <p><strong>Acknowledgements:</strong> Attributes Information</p>
+            <ul class="attributes-list">
+                <li class="attribute"><strong>Carat (Weight of Diamond):</strong> Weight of Diamond.</li>
+                <li class="attribute"><strong>Cut (Quality):</strong> Quality of cut (Fair, Good, Very Good, Premium, Ideal).</li>
+                <li class="attribute"><strong>Color:</strong> Diamond Color (from J -> 'worst' to D -> 'Best').</li>
+                <li class="attribute"><strong>Clarity:</strong> Measurement of Transparency (how clear the Diamond is). Sequence of clarity (I1 (worst quality), SI2, SI1, VS2, VS1, VVS2, VVS1, IF (best quality)).</li>
+                <li class="attribute"><strong>Table:</strong> Width of top of a Diamond.</li>
+                <li class="attribute"><strong>Price (in US dollars):</strong> Price of Diamond in US dollars.</li>
+                <li class="attribute"><strong>X (length):</strong> Length of Diamond in mm.</li>
+                <li class="attribute"><strong>Y (width):</strong> Width of Diamond in mm.</li>
+                <li class="attribute"><strong>Z (depth):</strong> Depth of Diamond in mm.</li>
+                <li class="attribute"><strong>Depth:</strong> Total depth percentage. It can be calculated by a simple formula: Total Depth % = Z / Mean(X, Y) or Z * 2 / (X + Y).</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

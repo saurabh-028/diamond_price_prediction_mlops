@@ -1,0 +1,14 @@
+[2024-02-15 17:58:29,587] 96 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.20.143:8000
+[2024-02-15 17:58:29,587] 96 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-02-15 17:58:41,532] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 17:58:41] "GET /predict HTTP/1.1" 200 -
+[2024-02-15 17:58:41,561] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 17:58:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2024-02-15 17:58:45,407] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 17:58:45] "GET / HTTP/1.1" 200 -
+[2024-02-15 17:58:45,714] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 17:58:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2024-02-15 17:58:46,203] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 17:58:46] "GET / HTTP/1.1" 200 -
+[2024-02-15 17:58:46,221] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 17:58:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2024-02-15 17:58:46,497] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 17:58:46] "GET /predict HTTP/1.1" 200 -
+[2024-02-15 17:58:46,815] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 17:58:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2024-02-15 17:59:02,755] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 17:59:02] "[31m[1mPOST /predict HTTP/1.1[0m" 405 -
