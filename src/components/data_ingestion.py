@@ -25,7 +25,7 @@ class DataIngestion:
             data = pd.read_csv("C:/Saurabh/mlops ineuron/End to End Project/Data/train.csv")
             logging.info("reading data")
 
-            os.makedirs(os.path.dirname(os.path.join(self.ingestion_config.raw_data_path))),
+            os.makedirs(os.path.dirname(os.path.join(self.ingestion_config.raw_data_path)), exist_ok=True),
             data.to_csv(self.ingestion_config.raw_data_path)
 
             train_data, test_data = train_test_split(data, test_size=0.25)

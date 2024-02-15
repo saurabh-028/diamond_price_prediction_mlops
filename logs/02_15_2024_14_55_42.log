@@ -1,0 +1,25 @@
+[2024-02-15 14:55:44,512] 23 root - INFO - data ingestion started
+[2024-02-15 14:55:44,781] 26 root - INFO - reading data
+[2024-02-15 14:55:46,168] 32 root - INFO - data split completed
+[2024-02-15 14:55:47,475] 37 root - INFO - data ingestion completed
+[2024-02-15 14:55:47,744] 71 root - INFO - read train and test data complete
+[2024-02-15 14:55:47,761] 72 root - INFO - Train Dataframe Head : 
+   Unnamed: 0      id  carat        cut color clarity  depth  table     x     y     z  price
+0       87128   87128   2.04  Very Good     I     SI2   59.6   61.0  8.23  8.30  4.93  15450
+1        1512    1512   0.52       Good     E     SI1   63.7   57.0  5.11  5.09  3.24   1316
+2       79236   79236   0.73       Good     G     SI2   63.7   58.0  5.68  5.72  3.62   2196
+3       92722   92722   0.70    Premium     G     SI1   61.0   60.0  5.75  5.70  3.49   2415
+4      147899  147899   1.20  Very Good     H     SI1   62.1   56.0  6.75  6.79  4.19   6048
+[2024-02-15 14:55:47,766] 73 root - INFO - Test Dataframe Head : 
+   Unnamed: 0      id  carat        cut color clarity  depth  table     x     y     z  price
+0       45782   45782   0.37      Ideal     E    VVS2   61.1   56.0  4.63  4.65  2.84    971
+1      109149  109149   1.00    Premium     F     SI1   60.6   57.0  6.44  6.40  3.89   5763
+2       12964   12964   1.35      Ideal     H     VS1   62.3   54.0  7.02  7.05  4.41   9116
+3       24901   24901   0.71      Ideal     G     VS1   60.8   56.0  5.82  5.78  3.52   2898
+4       18931   18931   0.37  Very Good     F     SI1   62.8   55.0  4.59  4.62  2.88    596
+[2024-02-15 14:55:47,766] 29 root - INFO - data transformation initiated
+[2024-02-15 14:55:47,766] 38 root - INFO - Pipeline Initiated
+[2024-02-15 14:55:47,778] 84 root - INFO - Applying preprocessing object on training and testing datasets.
+[2024-02-15 14:55:48,054] 93 root - INFO - preprocessing pickle file saved
+[2024-02-15 14:55:49,074] 35 root - INFO - Model Report : {'LinearRegression': 0.9359532469017673, 'Lasso': 0.9359482836412037, 'Ridge': 0.9359536840538274, 'Elasticnet': 0.8587016693702532}
+[2024-02-15 14:55:49,075] 47 root - INFO - Best Model Found , Model Name : Ridge , R2 Score : 0.9359536840538274
