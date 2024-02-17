@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Saurabh/mlops%20ineuron/End%20to%20End%20Project/mlruns/0/93412bbf5bd54e41bd1b65addc99627d/artifacts
+end_time: 1708144315904
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 93412bbf5bd54e41bd1b65addc99627d
+run_name: melodic-mouse-358
+run_uuid: 93412bbf5bd54e41bd1b65addc99627d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708144315855
+status: 3
+tags: []
+user_id: saurshin
